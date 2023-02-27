@@ -41,7 +41,6 @@ ro.fastbootd.available=true
 # Graphics
 debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=0
-debug.renderengine.backend=threaded
 debug.sf.predict_hwc_composition_strategy=0
 debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_transaction_tracing=false
@@ -54,7 +53,9 @@ sdm.debug.disable_inline_rotator=1
 vendor.display.disable_rotator_downscale=1
 sdm.debug.disable_inline_rotator_secure=1
 debug.performance.tuning=1
-debug.hwui.renderer=skiagl
+
+# OpenGL
+debug.hwui.renderer=opengl
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
