@@ -44,6 +44,7 @@ debug.sf.latch_unsignaled=0
 debug.renderengine.backend=threaded
 debug.sf.predict_hwc_composition_strategy=0
 debug.hwui.skia_atrace_enabled=false
+debug.sf.enable_transaction_tracing=false
 persist.demo.hdmirotationlock=false
 persist.sys.sf.native_mode=0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
